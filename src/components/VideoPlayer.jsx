@@ -2,7 +2,7 @@ var VideoPlayer = ({video}) => {
   // console.log(video);
   if (!video) {
     return (
-      <div className="video-player">noVideo</div>
+      <div className="video-player"></div>
     );
   }
   let videoID = video.id.videoId;
